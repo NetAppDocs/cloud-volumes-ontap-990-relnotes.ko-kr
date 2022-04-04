@@ -1,0 +1,16 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations-gcp.html 
+keywords: limitations, google cloud platform, gcp 
+summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오. 
+---
+= Google Cloud의 알려진 제한 사항
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Google 클라우드 플랫폼의 Cloud Volumes ONTAP에는 알려진 제한 사항이 없습니다. 를 참조하십시오 link:reference-limitations.html["모든 클라우드 공급자의 제한"].
