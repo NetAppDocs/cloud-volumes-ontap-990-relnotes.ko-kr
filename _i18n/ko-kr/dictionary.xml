@@ -685,7 +685,6 @@
   <block id="398d7dd4fa02e30dc6322ad98eff7d2b" category="paragraph">ONTAP 소프트웨어에 대해 알려진 문제는 에서 찾을 수 있습니다<block ref="13c0668cefb5d13050e1de01793dacbb" category="inline-link-rx"></block>.</block>
   <block id="70f6dd02b4e4b6c53ad0fb19908fde15" category="summary">이 릴리즈 노트에서는 Cloud Volumes ONTAP 9.9.0의 새로운 기능, 제한 사항 및 알려진 문제에 대해 설명합니다.</block>
   <block id="f69c520b80623b45a73d2418861dfa2b" category="doc">Cloud Volumes ONTAP 9.9.0 릴리스 정보</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
   <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">릴리스 노트 홈</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">설치하고</block>
@@ -732,4 +731,11 @@
   <block id="fed5c8246ca485a22abc959eb3025a8c" category="admonition">무료 평가판이 시작될 때, 7일 남았습니다. 1일이 남았을 때, Cloud Manager에서 알림을 받게 됩니다. 예를 들면 다음과 같습니다.<block ref="4c1747a7ecb096dffecedae45404dae8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="451e7fc5df78c19113abdb3f6a0dc54e" category="paragraph">용량 기반 라이센스를 시작하는 방법에 대해 알아보십시오.</block>
   <block id="fdb736034a6801c8a5010a511211a4a7" category="paragraph">Keystone 유연한 구독 시작 방법 알아보기:</block>
+  <block id="195512f323b29b79f5b71cceb3a49a7d" category="list-text">E80ids_v4^2^</block>
+  <block id="4e1b6146fa2cb1efc8bff10f1cf7e93c" category="list-text">E80ids_v4^1,2^</block>
+  <block id="4efc25f6cc7013d95ca2f5ab1dcc3366" category="list-text">이 VM은 Azure 유지 관리 제어가 필요한 경우에만 권장됩니다. 더 높은 가격 책정으로 인해 다른 사용 사례에는 권장되지 않습니다.</block>
+  <block id="6b9d51616a5f0637dd2fb237d868c037" category="cell">E80ids_v4</block>
+  <block id="5505ffcb759fb1c9c3793b2dd386cd82" category="inline-link">PAYGO와 BYOL 간 전환 방법에 대해 알아보십시오</block>
+  <block id="e1e947c069bd154f04aefec0a6619873" category="paragraph">시스템을 PAYGO by-node 라이센싱에서 BYOL by-node 라이센싱으로 변환하는 기능은 지원되지 않습니다. 새 시스템을 구축한 다음 데이터를 해당 시스템으로 복제해야 합니다.<block ref="c9d55d60961394f2cbacfb1050626915" category="inline-link-rx"></block></block>
+  <block id="bc503c45d950d94391e7685c6585b286" category="cell">m5dn.12xLarge</block>
 </blocks>

@@ -50,6 +50,7 @@ Azure에서 Cloud Volumes ONTAP를 단일 노드 시스템으로 구축할 때 �
 * E32s_v3^2^
 * E48s_v3^2^
 * E64is_v3^2^
+* E80ids_v4^2^
 * L8s_v2^3^
 
  a| 
@@ -68,6 +69,7 @@ Azure에서 Cloud Volumes ONTAP를 단일 노드 시스템으로 구축할 때 �
 * E32s_v3^2^
 * E48s_v3^2^
 * E64is_v3^2^
+* E80ids_v4^2^
 
  a| 
 * DS3_v2
@@ -81,6 +83,7 @@ Azure에서 Cloud Volumes ONTAP를 단일 노드 시스템으로 구축할 때 �
 * E32s_v3^2^
 * E48s_v3^2^
 * E64is_v3^2^
+* E80ids_v4^2^
 * L8s_v2^3^
 
  a| 
@@ -95,6 +98,7 @@ Azure에서 Cloud Volumes ONTAP를 단일 노드 시스템으로 구축할 때 �
 * E32s_v3^2^
 * E48s_v3^2^
 * E64is_v3^2^
+* E80ids_v4^2^
 * L8s_v2^3^
 
 
@@ -134,6 +138,7 @@ Azure에서 Cloud Volumes ONTAP를 HA 쌍으로 구축할 경우, 다음 구성 
 * DS15_v2^1^
 * E8s_v3
 * E48s_v3^1^
+* E80ids_v4^1,2^
 
  a| 
 * DS4_v2
@@ -145,6 +150,7 @@ Azure에서 Cloud Volumes ONTAP를 HA 쌍으로 구축할 경우, 다음 구성 
 * DS15_v2^1^
 * E8s_v3
 * E48s_v3^1^
+* E80ids_v4^1,2^
 
  a| 
 * DS4_v2
@@ -154,6 +160,7 @@ Azure에서 Cloud Volumes ONTAP를 HA 쌍으로 구축할 경우, 다음 구성 
 * DS15_v2^1^
 * E8s_v3
 * E48s_v3^1^
+* E80ids_v4^1,2^
 
  a| 
 * DS4_v2
@@ -163,6 +170,7 @@ Azure에서 Cloud Volumes ONTAP를 HA 쌍으로 구축할 경우, 다음 구성 
 * DS15_v2^1^
 * E8s_v3
 * E48s_v3^1^
+* E80ids_v4^1,2^
 
 
 
@@ -172,6 +180,7 @@ Azure에서 Cloud Volumes ONTAP를 HA 쌍으로 구축할 경우, 다음 구성 
 참고:
 
 . Cloud Volumes ONTAP는 HA 쌍을 사용하는 경우 이러한 VM 유형의 빠른 쓰기 속도를 지원합니다. 단일 노드 시스템을 사용하는 경우 모든 인스턴스 유형에서 높은 쓰기 속도가 지원됩니다. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html["쓰기 속도 선택에 대해 자세히 알아보세요"^].
+. 이 VM은 Azure 유지 관리 제어가 필요한 경우에만 권장됩니다. 더 높은 가격 책정으로 인해 다른 사용 사례에는 권장되지 않습니다.
 . PAYGO Explore는 Azure의 HA 쌍에서 지원되지 않습니다.
 . Azure 지역 지원은 를 참조하십시오 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes 글로벌 지역"^].
 . Cloud Volumes ONTAP는 클라우드 공급자의 예약된 VM 인스턴스 또는 주문형 VM 인스턴스에서 실행될 수 있습니다. 다른 VM 인스턴스 유형을 사용하는 솔루션은 지원되지 않습니다.
