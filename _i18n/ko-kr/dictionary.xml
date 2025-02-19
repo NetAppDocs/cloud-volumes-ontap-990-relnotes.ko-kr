@@ -542,8 +542,6 @@
   <block id="626a7cbe056796bcb1c158b143866230" category="inline-link">ONTAP 릴리즈 노트</block>
   <block id="398d7dd4fa02e30dc6322ad98eff7d2b" category="paragraph">ONTAP 소프트웨어에 대해 알려진 문제는 에서 찾을 수 있습니다<block ref="13c0668cefb5d13050e1de01793dacbb" category="inline-link-rx"></block>.</block>
   <block id="70f6dd02b4e4b6c53ad0fb19908fde15" category="summary">이 릴리즈 노트에서는 Cloud Volumes ONTAP 9.9.0의 새로운 기능, 제한 사항 및 알려진 문제에 대해 설명합니다.</block>
-  <block id="f69c520b80623b45a73d2418861dfa2b" category="doc">Cloud Volumes ONTAP 9.9.0 릴리스 정보</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">릴리스 노트 홈</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">설치하고</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure를 지원합니다</block>
@@ -569,7 +567,6 @@
   <block id="4efc25f6cc7013d95ca2f5ab1dcc3366" category="list-text">이 VM은 Azure 유지 관리 제어가 필요한 경우에만 권장됩니다. 더 높은 가격 책정으로 인해 다른 사용 사례에는 권장되지 않습니다.</block>
   <block id="6b9d51616a5f0637dd2fb237d868c037" category="cell">E80ids_v4</block>
   <block id="bc503c45d950d94391e7685c6585b286" category="cell">m5dn.12xLarge</block>
-  <block id="30af1a6878bac3a7aaed5d0e64e7b511" category="paragraph">Cloud Volumes ONTAP은 다양한 라이센스 옵션을 제공하므로 요구사항에 맞는 소비 모델을 선택할 수 있습니다.</block>
   <block id="37439fa615a442ec183c1c602f9755f1" category="paragraph">용량 기반 라이센스는 _package_ 형식으로 제공됩니다. Cloud Volumes ONTAP 시스템을 구축할 때 비즈니스 요구 사항에 따라 여러 라이센스 패키지 중에서 선택할 수 있습니다.</block>
   <block id="deb56fb5a824215375b16e72749e2aa3" category="inline-link">이러한 라이센스 옵션에 대해 자세히 알아보십시오</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896TiB</block>
@@ -640,4 +637,11 @@
   <block id="81a04fd94750bd8d6eba4ddcd31937d5" category="paragraph"><block ref="8c187d79d64725fc1c5fe18120107add" category="inline-link-macro-rx"></block>
 <block ref="3f0e03f473a215943c109dc7746cdb60" category="inline-link-macro-rx"></block>.</block>
   <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">아래 표에 표시된 대역폭 은 각 인스턴스 유형에 대해 문서화된 AWS 제한과 일치합니다. 이러한 제한은 Cloud Volumes ONTAP이 제공할 수 있는 것과 완전히 일치하지는 않습니다. 예상 성능은 을<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="6b32e99bddf60938239aabe092cb4c16" category="paragraph">Cloud Volumes ONTAP에는 몇 가지 라이센스 옵션이 있습니다. 각 옵션을 사용하여 요구사항에 맞는 소비 모델을 선택할 수 있습니다.</block>
+  <block id="27fe4eb3edbaff8f250e2d51f7462681" category="inline-link">패키지</block>
+  <block id="13dba612a4f942a80cbc82c5f678d57c" category="inline-link">용량 기반 라이센스에 대해 자세히 알아보십시오</block>
+  <block id="d994821c78c4538d3406d1baa52bc470" category="paragraph"><block ref="55cb08b70ffaa99b7ec18860c0180e14" category="inline-link-rx"></block> <block ref="7c9574dfed81dad53ed1c2acf3a874b5" category="inline-link-rx"></block></block>
+  <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Azure VM 확장 사용 시 제한 사항</block>
+  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP는 배포 시 Azure VM(가상 머신) 확장 및 VM 애플리케이션을 지원하지 않습니다. VM 확장과 함께 Azure에서 Cloud Volumes ONTAP를 사용하면 작업이 지연되므로 NetApp에서는 이를 방지할 것을 권장합니다.</block>
+  <block id="7e2b331593f6fb544af5a08d8faadc1a" category="sidebar">Cloud Volumes ONTAP 9.9.0 릴리스 정보</block>
 </blocks>
